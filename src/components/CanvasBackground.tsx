@@ -95,7 +95,7 @@ export default function CanvasBackground({ isDark }: CanvasBackgroundProps) {
       }
     `;
 
-    function compileShader(source: string, type: number): WebGLShader | null {
+    function compileShader(gl: WebGLRenderingContext, source: string, type: number): WebGLShader | null {
       const shader = gl.createShader(type);
       if (!shader) return null;
       gl.shaderSource(shader, source);
@@ -108,8 +108,8 @@ export default function CanvasBackground({ isDark }: CanvasBackgroundProps) {
       return shader;
     }
 
-    const vs = compileShader(vsSource, gl.VERTEX_SHADER);
-    const fs = compileShader(fsSource, gl.FRAGMENT_SHADER);
+    const vs = compileShader(gl, vsSource, gl.VERTEX_SHADER);
+    const fs = compileShader(gl, fsSource, gl.FRAGMENT_SHADER);
     if (!vs || !fs) return;
 
     const program = gl.createProgram();
