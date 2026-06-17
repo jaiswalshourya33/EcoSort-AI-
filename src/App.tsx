@@ -335,16 +335,7 @@ export default function App() {
                 </p>
               </div>
 
-              {/* Warning HUD for missing API Keys (Informed to user gracefully) */}
-              {!import.meta.env.VITE_GEMINI_API_KEY && (
-                <div className="p-4 rounded-xl bg-orange-50 dark:bg-orange-950/20 border border-orange-500/20 text-orange-850 dark:text-orange-300 flex items-start gap-3 text-xs leading-relaxed">
-                  {/* <Info className="w-4.5 h-4.5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="font-bold">Sandbox API Environment Note:</span> Make sure your Gemini Key is attached inside AI Studio’s <span className="font-semibold">Secrets</span> panel under <code className="bg-orange-100 dark:bg-orange-950/45 px-1 rounded font-mono">GEMINI_API_KEY</code> to enable production-grade waste audits.
-                  </div> */}
-                </div>
-              )}
-
+              
               <form onSubmit={handleClassify} className="space-y-6">
                 
                 {/* Text descriptor input field */}
