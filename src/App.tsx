@@ -471,14 +471,6 @@ export default function App() {
               {result ? (
                 <div className="glass-card p-6 md:p-10 rounded-3xl border-2 border-emerald-500/20 dark:border-primary/20 flex flex-col gap-6 animate-fade-in animate-duration-500 self-stretch">
                   
-                  {isFallbackResult && (
-                    <div className="p-3.5 rounded-xl bg-amber-50 dark:bg-amber-950/20 border border-amber-500/20 text-amber-850 dark:text-amber-300 text-[11px] flex items-start gap-2 leading-relaxed">
-                      <AlertCircle className="w-4 h-4 text-amber-600 dark:text-amber-400 shrink-0 mt-0.5" />
-                      <div>
-                        <span className="font-bold">Resilient Fallback Mode:</span> Local analytical heuristics were applied due to temporary upstream AI model demand spikes. Feel free to re-submit in a few seconds!
-                      </div>
-                    </div>
-                  )}
 
                   <div className="flex justify-between items-start">
                     <div>
