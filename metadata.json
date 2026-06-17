@@ -1,0 +1,6 @@
+{
+  "name": "EcoSort AI",
+  "description": "An intelligent, AI-powered assistant for segregating and classifying waste, supporting SDG 12 goals with dynamic dark mode and guides.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
