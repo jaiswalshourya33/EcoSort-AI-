@@ -286,7 +286,7 @@ export default function App() {
       </header>
 
       {/* Main Container Wrapper */}
-      <main className="relative z-10 flex-grow">
+      <main className="relative z-10 grow">
         
         {/* HERO SECTION */}
         <section id="hero" className="max-w-7xl mx-auto px-4 md:px-10 py-16 md:py-24 text-center">
@@ -336,7 +336,7 @@ export default function App() {
               </div>
 
               {/* Warning HUD for missing API Keys (Informed to user gracefully) */}
-              {!process.env.GEMINI_API_KEY && (
+              {!import.meta.env.VITE_GEMINI_API_KEY && (
                 <div className="p-4 rounded-xl bg-orange-50 dark:bg-orange-950/20 border border-orange-500/20 text-orange-850 dark:text-orange-300 flex items-start gap-3 text-xs leading-relaxed">
                   <Info className="w-4.5 h-4.5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                   <div>
