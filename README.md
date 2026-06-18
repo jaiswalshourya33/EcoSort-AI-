@@ -230,10 +230,6 @@ Recommendations prioritize environmentally responsible disposal methods.
 B.Tech CSE (Data Science)  
 ABES Engineering College
 
-GitHub: https://github.com/jaiswalshourya33
-
-LinkedIn: https://www.linkedin.com/in/shourya-jaiswal-119b9b309/
-
 ---
 
 ## 📄 License
