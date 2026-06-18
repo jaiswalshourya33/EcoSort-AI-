@@ -232,10 +232,4 @@ ABES Engineering College
 
 ---
 
-## 📄 License
-
-This project is developed for educational and sustainability awareness purposes as part of the AI for Sustainability Virtual Internship in collaboration with IBM SkillsBuild and AICTE.
-
----
-
 ### 🌱 Building a Sustainable Future Through Artificial Intelligence
