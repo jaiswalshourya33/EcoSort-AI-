@@ -223,12 +223,21 @@ Recommendations prioritize environmentally responsible disposal methods.
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Project Contributors
 
-**Shourya Jaiswal**
-
+### Shourya Jaiswal
 B.Tech CSE (Data Science)  
 ABES Engineering College
+
+### Parv Chaudhary
+B.Tech CSE (Data Science)  
+ABES Engineering College
+
+---
+
+### 🤝 Collaboration
+
+This project was collaboratively designed and developed by **Shourya Jaiswal** and **Parv Chaudhary** as part of the **1M1B AI for Sustainability Virtual Internship** in collaboration with **IBM SkillsBuild** and **AICTE**. Together, we worked on ideation, design, development, AI integration, and sustainability-focused solution building through EcoSort AI.
 
 ---
 
